@@ -1,0 +1,39 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Perl Debug Plug-in
+Bundle-SymbolicName: org.epic.debug; singleton:=true
+Bundle-Version: 0.7.0
+Bundle-Activator: org.epic.debug.PerlDebugPlugin
+Bundle-Vendor: EPIC Project
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: org.epic.debug,
+ org.epic.debug.cgi,
+ org.epic.debug.cgi.server,
+ org.epic.debug.db,
+ org.epic.debug.local,
+ org.epic.debug.remote,
+ org.epic.debug.ui,
+ org.epic.debug.ui.action,
+ org.epic.debug.ui.propertypages,
+ org.epic.debug.util
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.debug.core,
+ org.eclipse.debug.ui,
+ org.eclipse.jface,
+ org.eclipse.jface.text,
+ org.eclipse.text,
+ org.eclipse.ui.editors,
+ org.eclipse.ui.workbench.texteditor,
+ org.eclipse.ui.workbench,
+ org.eclipse.ui,
+ org.eclipse.core.resources,
+ org.eclipse.help,
+ org.eclipse.ui.ide,
+ org.eclipse.help.base,
+ org.epic.perleditor,
+ org.epic.regexp,
+ org.eclipse.core.variables,
+ org.epic.lib,
+ org.eclipse.ui.console
+Eclipse-AutoStart: true
